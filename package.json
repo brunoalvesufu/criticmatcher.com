@@ -1,0 +1,16 @@
+{
+  "name": "criticmatcher.com",
+  "version": "1.0.0",
+  "description": "Bem-vindo ao CriticMatcher! 🎮 Tá cansado de confiar nas notas de review de jogos e acabar decepcionado? A gente também! Por isso criamos o CriticMatcher: uma ferramenta que compara as suas opiniões sobre jogos com as avaliações dos principais sites de review.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
