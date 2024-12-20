@@ -1,4 +1,5 @@
 # criticmatcher.com
+
 Bem-vindo ao CriticMatcher! 🎮
 Tá cansado de confiar nas notas de review de jogos e acabar decepcionado? A gente também! Por isso criamos o CriticMatcher: uma ferramenta que compara as suas opiniões sobre jogos com as avaliações dos principais sites de review.
 
