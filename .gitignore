@@ -3,6 +3,7 @@ node_modules/
 jspm_packages/
 .next/
 .idea/
+coverage/
 
 # Optional npm cache directory
 .npm
