@@ -4,7 +4,10 @@
   "description": "Bem-vindo ao CriticMatcher! 🎮 Tá cansado de confiar nas notas de review de jogos e acabar decepcionado? A gente também! Por isso criamos o CriticMatcher: uma ferramenta que compara as suas opiniões sobre jogos com as avaliações dos principais sites de review.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run services:up && next dev",
+    "services:up": "docker compose -f infra/compose.yaml up -d",
+    "services:stop": "docker compose -f infra/compose.yaml stop",
+    "services:down": "docker compose -f infra/compose.yaml down",
     "lint:check": "prettier --check .",
     "lint:fix": "prettier --write .",
     "test": "jest",
