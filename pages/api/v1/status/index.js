@@ -1,10 +1,10 @@
-import database from "../../../../infra/database.js";
+import database from "infra/database.js";
 
 async function status(resquest, response) {
-  const result = await database.query("SELECT 1 + 1 as sum;")
-  console.log("The result:")
-  console.log(result.rows);
-  response.status(200).json({ mensagem: "Tudo funcionando! Çàê" });
+  const updatedAt = new Date().toISOString();
+  response.status(200).json({
+    updated_at: updatedAt,
+  });
 }
 
 export default status;
